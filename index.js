@@ -35,6 +35,9 @@ function renderGame(){
     
     let card = 6
     sum += card
+//push the card to the cards array 
+ cards.push(card)
+ console.log(cards)
 
     renderGame()
  }
